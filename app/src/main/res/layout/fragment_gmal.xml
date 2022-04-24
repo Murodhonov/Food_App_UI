@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".GmailFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="55dp"
+            android:layout_marginHorizontal="25dp"
+            android:contentDescription="@string/logo"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="25dp"
+            android:layout_marginTop="35dp"
+            android:text="@string/title_page3"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="25dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/title2_page3"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_marginTop="15dp"
+            android:autofillHints="name"
+            android:background="@drawable/edtbg"
+            android:hint="@string/name"
+            android:inputType="text"
+            android:paddingHorizontal="75dp"
+            android:textColor="#D3FFFFFF"
+            android:textColorHint="#D3FFFFFF"
+            android:textSize="17sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:autofillHints="emailAddress"
+            android:background="@drawable/edtbg"
+            android:hint="@string/email"
+            android:inputType="text"
+            android:paddingHorizontal="75dp"
+            android:textColor="#D3FFFFFF"
+            android:textColorHint="#D3FFFFFF"
+            android:textSize="17sp"
+            android:translationY="-50dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:autofillHints="password"
+            android:background="@drawable/edtbg"
+            android:hint="@string/password"
+            android:inputType="text"
+            android:paddingHorizontal="75dp"
+            android:textColor="#D3FFFFFF"
+            android:textColorHint="#D3FFFFFF"
+            android:textSize="17sp"
+            android:translationY="-100dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_marginBottom="25dp"
+            android:autofillHints="password"
+            android:background="@drawable/edtbg"
+            android:hint="@string/confirm_password"
+            android:inputType="text"
+            android:paddingHorizontal="75dp"
+            android:textColor="#D3FFFFFF"
+            android:textColorHint="#D3FFFFFF"
+            android:textSize="17sp"
+            android:translationY="-150dp" />
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="35dp"
+            android:shadowColor="@color/white"
+            android:text="@string/title3_page4"
+            android:textColor="@color/white"
+            android:translationY="-185dp" />
+
+        <TextView
+            android:id="@+id/next"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:background="@drawable/orangebutton"
+            android:gravity="center"
+            android:text="@string/next"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:translationY="-155dp" />
+
+
+    </LinearLayout>
+
+</ScrollView>

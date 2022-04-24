@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Food App UI</string>
+    <string name="box_title">Cook with consideration</string>
+    <string name="google_text">Google</string>
+    <string name="facebook_text">Facebook</string>
+    <string name="email_register">Register by email</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="enter">Enter</string>
+    <string name="title_page3">List</string>
+    <string name="title2_page3">Save delicious recipes and get your personal content</string>
+    <string name="title3_page4">I\'d like to receive recipe inspiration, foraging, updates and more</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="next">Next</string>
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="saved">Saved</string>
+    <string name="message">Message</string>
+    <string name="recipe_for_you">Recipe For You</string>
+    <string name="logo">logo</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="username">Username</string>
+    <string name="zero">0</string>
+</resources>
